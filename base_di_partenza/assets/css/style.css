@@ -201,7 +201,7 @@ footer a {
 }
 
 /*MOBILE*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 575px) {
   header nav ul li {
     display: inline-block;
     margin-right: 10px;
@@ -224,7 +224,7 @@ footer a {
   }
 }
 /*MEDIUM*/
-@media screen and (min-width: 767px) and (max-width: 1200px) {
+@media screen and (min-width: 575px) {
   header nav ul li {
     display: inline-block;
     margin-right: 1px;
@@ -285,6 +285,9 @@ footer a {
   header div p {
     margin: auto;
   }
+  header a {
+    margin-right: 10px;
+  }
 
   header div img {
     margin-top: 15px;
@@ -318,15 +321,17 @@ footer a {
     height: 28rem;
     border-radius: 17px 17px;
     box-sizing: border-box;
-    vertical-align: text-top;
-    margin-left: -3px;
+    vertical-align: top;
+    margin-left: -5px;
+    margin-right: -10px;
   }
   iframe {
     display: inline-block;
     width: 48%;
     height: 28rem;
     box-sizing: border-box;
-    vertical-align: text-top;
+    vertical-align: top;
+    margin-left: 25px;
   }
   section form fieldset input {
     width: 60%;
@@ -337,14 +342,18 @@ footer a {
     width: 100px;
   }
   footer {
-    font-size: 2.2rem;
+    font-size: 3rem;
+  }
+  footer address {
+    margin-inline: 40px;
   }
   aside div {
     display: inline-block;
     width: 33%;
     height: 15rem;
     box-sizing: border-box;
-    vertical-align: text-top;
-    margin-right: -3px;
+    vertical-align: top;
+    margin-left: -2.5px;
+    margin-right: -2.5px;
   }
 }
